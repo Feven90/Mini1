@@ -1,0 +1,11 @@
+body {
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    min-height: 100mv;
+    align-items: center;
+}
+.main-div {
+    flex:1;
+}
+

@@ -1,11 +1,30 @@
 body {
-    background-color: gold;
+     background-color: #FFEB3B;   
     display: flex;
-    flex-direction: column;
-    min-height: 100mv;
-    align-items: center;
+    flex-direction: column; 
+    min-height: 50vh; 
 }
-.main-div {
-    flex:1;
+img {
+    height: 300px;
+    display: block; 
+     margin-left: auto;
+    margin-right: auto;
 }
+
+.main-div { 
+    margin:20px;  
+    flex: 1;  
+ } 
+.div2 {
+    justify-items: flex-start; 
+	border: 1px solid;
+    width: 50%;
+    background-color: #795548;
+}
+footer {
+  margin: auto;
+
+}
+
+
 

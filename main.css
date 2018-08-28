@@ -14,17 +14,31 @@ img {
 .main-div { 
     margin:20px;  
     flex: 1;  
+    display: flex;
+    flex-direction: row;
  } 
 .div2 {
     justify-items: flex-start; 
 	border: 1px solid;
     width: 50%;
+    height: 70%;
     background-color: #795548;
+    margin-right: 10px;
+}
+.div3
+{
+    justify-items: flex-end; 
+	border: 1px solid;
+    width: 50%;
+    background-color: #795548;
+    height: 70%;
 }
 footer {
-  margin: auto;
-
+    margin: auto;
 }
+
+
+
 
 
 
